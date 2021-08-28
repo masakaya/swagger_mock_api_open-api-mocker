@@ -1,4 +1,4 @@
-#install and run mock server
+# install and run mock server
 
 npm install -D open-api-mocker
 
