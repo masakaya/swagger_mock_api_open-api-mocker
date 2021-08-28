@@ -1,0 +1,23 @@
+{
+  "name": "swagger_mock_api_open-api-mocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "npx open-api-mocker -p 8081 -s ./swagger.yml"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masakaya/swagger_mock_api_open-api-mocker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakaya/swagger_mock_api_open-api-mocker/issues"
+  },
+  "homepage": "https://github.com/masakaya/swagger_mock_api_open-api-mocker#readme",
+  "devDependencies": {
+    "open-api-mocker": "^1.7.2"
+  }
+}
