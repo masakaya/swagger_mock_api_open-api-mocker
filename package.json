@@ -1,0 +1,18 @@
+{
+  "name": "swagger_mock_api_prism",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "mock": "npx open-api-mocker -p 8080 -s ./swagger.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prism"
+  ],
+  "author": "Masashi Kayahara",
+  "license": "ISC",
+  "devDependencies": {
+    "open-api-mocker": "^1.7.2"
+  }
+}
